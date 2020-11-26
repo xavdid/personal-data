@@ -82,7 +82,7 @@ def main():
 
         highlights.append(
             dict(
-                id=uuid,  # zapier dedups on this
+                highlight_uuid=uuid,  # zapier dedups on this
                 text=normalized_text,
                 book_title=book_title,
                 comment=comment,
