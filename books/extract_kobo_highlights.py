@@ -29,7 +29,7 @@ UNICODE_REPLACEMENTS = {
 }
 
 POSSIBLE_PATHS = (
-    Path("Volumes", "KOBOeReader", ".kobo", "KoboReader.sqlite"),
+    Path("/Volumes", "KOBOeReader", ".kobo", "KoboReader.sqlite"),
     Path(Path.home(), "Desktop", "KoboReader.sqlite"),
 )
 
