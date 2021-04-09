@@ -60,9 +60,9 @@ def find_kobo_db():
 def main():
     """
     Dumps a mostly raw version of my Kobo highlights. It:
-    * joins text that might be split over multiple lines
-    * removes unicode
-    * outputs a structure that Zapier expects (https://zapier.com/app/editor/106024564).
+        * joins text that might be split over multiple lines
+        * removes unicode
+        * outputs a structure that Zapier expects (https://zapier.com/app/editor/106024564).
     """
     conn = sqlite3.connect(find_kobo_db())
     cur = conn.cursor()
