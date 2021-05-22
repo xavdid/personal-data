@@ -1,0 +1,8 @@
+{
+  "python.autoComplete.extraPaths": [
+    "./books"
+  ],
+  "python.analysis.extraPaths": [
+    "./books"
+  ]
+}

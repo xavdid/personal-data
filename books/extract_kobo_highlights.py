@@ -1,7 +1,8 @@
+import json
 import sqlite3
 from pathlib import Path
-import json
-import sys
+
+from utils import find_kobo_db
 
 HIGHLIGHTS_QUERY = """
 SELECT DISTINCT bookmarkid,
@@ -28,33 +29,12 @@ UNICODE_REPLACEMENTS = {
     "\u2013": "-",
 }
 
-POSSIBLE_PATHS = (
-    Path("/Volumes", "KOBOeReader", ".kobo", "KoboReader.sqlite"),
-    Path(Path.home(), "Desktop", "KoboReader.sqlite"),
-)
-
 
 def replace_unicode(s):
     for u, r in UNICODE_REPLACEMENTS.items():
         if u in s:
             s = s.replace(u, r)
     return s
-
-
-def find_kobo_db():
-    # checks a couple of default places for the file, or asks or a path
-    # default is the connected device
-
-    for p in POSSIBLE_PATHS:
-        if p.exists():
-            return p
-
-    if len(sys.argv) > 1 and "sqlite" in sys.argv[1]:
-        return sys.argv[1]
-
-    raise ValueError(
-        "Unable to locate sqlite backup. Re-run the script and provide a path as the first argument"
-    )
 
 
 def main():
