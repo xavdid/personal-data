@@ -559,6 +559,342 @@
       "book_title": "Arm of the Sphinx",
       "comment": "",
       "utc_timestamp": "2021-08-26T07:37:58.366Z"
+    },
+    {
+      "highlight_uuid": "c57791c5-527a-4d11-bf22-90f843b38fff",
+      "text": "now-a man who prided himself on the power of his mind being tormented by that very organ",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-08-28T00:44:11.392Z"
+    },
+    {
+      "highlight_uuid": "0f74faf9-3b38-4ce0-84ef-25dd15d375b8",
+      "text": "Well, you've taken some abrupt naps",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-08-28T00:47:23.120Z"
+    },
+    {
+      "highlight_uuid": "f8c90d36-ed79-4b99-9027-6bd024793d6e",
+      "text": "It is common knowledge the Sphinx does not exist. This fact, however, has not diminished his fame.",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T04:47:51.922Z"
+    },
+    {
+      "highlight_uuid": "1d309b2c-eb72-4ae1-903c-84607bf0a58c",
+      "text": "Of course I have a plan,\" he said, clapping his hands. \"We are going to die.",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T04:52:38.054Z"
+    },
+    {
+      "highlight_uuid": "3c1e3d9b-5ef7-46a8-8c45-94d6756f4b8b",
+      "text": "We call an application data-intensive if data is its primary challenge-the quantity of data, the complexity of data, or the speed at which it is changing-as opposed to compute-intensive, where CPU cycles are the bottleneck.",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:12:05.015Z"
+    },
+    {
+      "highlight_uuid": "9c817a49-e309-45a2-962a-b479cdc7ff99",
+      "text": "We typically think of databases, queues, caches, etc. as being very different categories of tools. Although a database and a message queue have some superficial similarity-both store data for some time-they have very different access patterns, which means different performance characteristics, and thus very different implementations.",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:19:57.604Z"
+    },
+    {
+      "highlight_uuid": "76767b19-0526-41be-9578-3cd69c754c71",
+      "text": "How do you ensure that the data remains correct and complete, even when things go wrong internally",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:22:52.492Z"
+    },
+    {
+      "highlight_uuid": "ab13410e-a3c9-4bae-af28-6c450a3c42d4",
+      "text": "Decouple the places where people make the most mistakes from the places where they can cause failures",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:32:06.355Z"
+    },
+    {
+      "highlight_uuid": "85f2352d-9306-41c0-9527-4b6e7a03deeb",
+      "text": "Amazon describes response time requirements for internal services in terms of the 99.9th percentile, even though it only affects 1 in 1,000 requests. This is because the customers with the slowest requests are often those who have the most data on their accounts because they have made many purchases-that is, they're the most valuable customers",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:39:12.866Z"
+    },
+    {
+      "highlight_uuid": "d28ddd43-b2bd-4a4c-b557-7be5da6a0899",
+      "text": "The architecture of systems that operate at large scale is usually highly specific to the application-there is no such thing as a generic, one-size-fits-all scalable architecture",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:42:59.288Z"
+    },
+    {
+      "highlight_uuid": "5e15de89-b4d8-432c-bdda-c07ab7c647d7",
+      "text": "when the system is harder for developers to understand and reason about, hidden assumptions, unintended consequences, and unexpected interactions are more easily overlooked",
+      "book_title": "Designing Data-Intensive Applications",
+      "comment": "",
+      "utc_timestamp": "2021-08-29T15:47:07.784Z"
+    },
+    {
+      "highlight_uuid": "1d7079cc-3bd2-46b8-801a-1935c3045a0b",
+      "text": "Traps? In a library? Whatever for?\" \"Books are traps,\"",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-03T07:34:09.447Z"
+    },
+    {
+      "highlight_uuid": "b74d0547-0f8e-44d4-9573-820d37cd8e26",
+      "text": "These were his imperfections, and having mastered them, he would not trade them for the world.",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-04T08:08:38.983Z"
+    },
+    {
+      "highlight_uuid": "c3f1d979-0b4d-4888-a6bb-d563c749ced1",
+      "text": "The master had compared it to an egg timer, though Ferdinand didn't know what eggs were or why they needed timing",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-04T08:14:53.306Z"
+    },
+    {
+      "highlight_uuid": "0aafda3c-1fa1-49d0-ad3e-bc41ccf4f2e8",
+      "text": "celestial zygote",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-05T08:44:07.080Z"
+    },
+    {
+      "highlight_uuid": "eb374de6-a998-409c-84af-fc708d36b920",
+      "text": "If there isn't peril, then it isn't an adventure",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-05T08:50:02.204Z"
+    },
+    {
+      "highlight_uuid": "a10a6ce0-d21f-46f4-bcf8-a2fa88157df1",
+      "text": "I am still having trouble deciphering my thoughts. They perform like an orchestra of soloists, each musician playing a different composition.",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-08T16:09:45.610Z"
+    },
+    {
+      "highlight_uuid": "40c142d7-b390-4e63-9257-3b4dbd7d64e3",
+      "text": "I woke up this morning thinking about what I had written last night, which is never a good sign",
+      "book_title": "Arm of the Sphinx",
+      "comment": "",
+      "utc_timestamp": "2021-09-08T16:27:29.292Z"
+    },
+    {
+      "highlight_uuid": "fa74871b-28eb-409d-87b7-c11b589de0de",
+      "text": "moving like blood cells through the veins of the country",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-12T16:22:57.966Z"
+    },
+    {
+      "highlight_uuid": "a127d726-72bc-4dd9-a5de-1b271370a076",
+      "text": "they'd spent too long losing a rigged game",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-12T16:28:02.255Z"
+    },
+    {
+      "highlight_uuid": "26c359f4-b7bf-4e50-a8c2-5e4831a062bb",
+      "text": "When she saw a campsite strewn with beer bottles, instead of demanding that the campers clean it up, she'd make a helpful offer: \"I could bring you down some big trash bags.\"",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-12T16:43:36.625Z"
+    },
+    {
+      "highlight_uuid": "ce0240e9-ca16-47e4-bc05-03f6e476bf93",
+      "text": "The economy is a game. This game should be about nonessential things (motorcycles, computers, televisions). A person feeding their family, staying alive, having shelter . . . that should not be subject to an economy",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T07:34:06.867Z"
+    },
+    {
+      "highlight_uuid": "8ae49ce4-c509-407a-859f-dfe253dd8fde",
+      "text": "when it comes to Social Security benefits, female recipients get on average $341 a month less than men because of lower total payroll tax contributions, an under-recognized consequence of the gender wage gap.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T07:35:50.726Z"
+    },
+    {
+      "highlight_uuid": "e09d9291-eaf6-4d84-b305-32e67a9f42ea",
+      "text": "We do not need to expect everything to be given to us. We must work for it",
+      "book_title": "Nomadland",
+      "comment": "This is sort of a weird pull quote to come up with.",
+      "utc_timestamp": "2021-09-13T16:14:34.723Z"
+    },
+    {
+      "highlight_uuid": "68f8d232-c4f9-4303-a3d9-f259efacfc43",
+      "text": "the workers ran out of pills, that wasn't a problem-Amazon had wall-mounted dispensers offering free over-the-counter painkillers in the warehouse",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:18:59.533Z"
+    },
+    {
+      "highlight_uuid": "4504bf45-996d-4c7d-af31-2c5e9bfac82e",
+      "text": "His downfall was putting his faith in the gospel of ever-increasing home prices",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:19:39.102Z"
+    },
+    {
+      "highlight_uuid": "b5c29882-c5d7-4066-a8ea-1afaa813be06",
+      "text": "He compared the \"slow-dawning reality\" of his new life to waking up in The Matrix: learning that the pleasant, predictable world you used to inhabit was a mirage, a lie built to hide a brutal dystopia",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:20:29.989Z"
+    },
+    {
+      "highlight_uuid": "b1649fa7-2e73-403b-9b4e-d8af647fdfcb",
+      "text": "Neither could imagine spending the rest of their lives servicing a loan worth more than the value of their house. So they bought a 2003 Cardinal fifth-wheel trailer and hit the road. \"We just walked away,\" Anita said. \"We told ourselves, 'We're not playing this game anymore.'\"",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:21:36.181Z"
+    },
+    {
+      "highlight_uuid": "92098eff-cdc7-4683-87ce-8956710bb81a",
+      "text": "some had their personal savings wiped out by bad investments or saw their 401(k)s evaporate in the 2008 market crash",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:22:06.888Z"
+    },
+    {
+      "highlight_uuid": "f49d5d84-96b3-45d7-966b-354fd6086ebd",
+      "text": "Workampers are plug-and-play labor, the epitome of convenience for employers in search of seasonal staffing",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:23:27.600Z"
+    },
+    {
+      "highlight_uuid": "a63c877e-6e19-4574-9831-55d5445fe78c",
+      "text": "They aren't around long enough to unionize",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-13T16:23:31.810Z"
+    },
+    {
+      "highlight_uuid": "0707912a-11ea-4f38-903e-e57ef0c2f53a",
+      "text": "In later versions, game designers paved over the poorhouse and put up a \"free parking\" space.",
+      "book_title": "Nomadland",
+      "comment": "Monopoly used to have a poorhouse",
+      "utc_timestamp": "2021-09-13T16:31:41.225Z"
+    },
+    {
+      "highlight_uuid": "3861a921-2b8a-47ff-9fb3-0456acef278d",
+      "text": "By moving into vans and other vehicles, he suggested, people could become conscientious objectors to the system that had failed them.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-14T06:42:16.085Z"
+    },
+    {
+      "highlight_uuid": "3c66316b-460b-4171-af32-09a60baf16fc",
+      "text": "On Reddit, a thread called \"vandwellers\"",
+      "book_title": "Nomadland",
+      "comment": "Not a thread!",
+      "utc_timestamp": "2021-09-14T06:56:50.905Z"
+    },
+    {
+      "highlight_uuid": "2cc5315d-c860-4c9e-96a4-09bb1f7f2ee8",
+      "text": "it was addressed \"To Auntie, Miss Jen and Van",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-15T08:02:47.985Z"
+    },
+    {
+      "highlight_uuid": "ad5bc3cc-83a6-43eb-bdda-99ee84810637",
+      "text": "poopsicle",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-15T08:09:02.704Z"
+    },
+    {
+      "highlight_uuid": "27de136f-5a95-41f5-8874-fd7be4163a36",
+      "text": "Rather than pay for amenities, they boondock, using solar panels and gas-powered generators for electricity, hauling their own water in jugs and tanks. What creature comforts they sacrifice are made up for by the scenery. They park beside giant, open-armed saguaros that grow thick and tall as telephone poles; from a distance, the cacti look like giant hitching posts for the motorhomes",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-17T07:31:45.974Z"
+    },
+    {
+      "highlight_uuid": "6b850651-b6cb-4c72-850b-128a070fe0e0",
+      "text": "Offered a box cutter, I politely declined, explaining I'd have to fly home later",
+      "book_title": "Nomadland",
+      "comment": "She shouldn't have worried about it",
+      "utc_timestamp": "2021-09-17T07:50:31.971Z"
+    },
+    {
+      "highlight_uuid": "f52d6337-eb4b-4e52-8a79-4e3a2376656b",
+      "text": "We need to be alone and on the move, but we equally need to occasionally gather together and make connections with like-minded people who understand us.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-18T07:12:45.446Z"
+    },
+    {
+      "highlight_uuid": "0ee1552b-d399-48fd-9e7d-93f2dd1ce420",
+      "text": "Some people would consider me homeless. I don't. I have shelter.\" At the same time, she explained, she felt guilty about putting herself in a different category, as if it might reinforce the larger social stigma",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-19T08:09:07.373Z"
+    },
+    {
+      "highlight_uuid": "bc929569-4509-4a28-988b-d3fc2fef663c",
+      "text": "journalist who parachutes in for an afternoon to cover a story seldom gets close enough to hear any kind of truth",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-19T20:49:26.246Z"
+    },
+    {
+      "highlight_uuid": "d6a39851-8582-4b59-b8f0-9b58d69471e7",
+      "text": "In America, if you don't have an address, you're not a real person.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-19T20:56:07.963Z"
+    },
+    {
+      "highlight_uuid": "d753ec0f-16ce-423d-9761-2d3d0595a0a4",
+      "text": "Your fear will magnify every sound (and there are a lot of them) and you may not get much sleep",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-19T20:59:35.606Z"
+    },
+    {
+      "highlight_uuid": "d8200b28-c53e-4708-8e18-54b716e092f5",
+      "text": "When you're living in a space as small as a van, claustrophobia eventually gives way to a den-like coziness",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-20T08:52:02.904Z"
+    },
+    {
+      "highlight_uuid": "ce2aa6e6-d1b4-4c75-9450-db8d9dff5efd",
+      "text": "America makes it hard enough for people to live nomadically, regardless of race. Stealth camping in residential areas, in particular, is way outside the mainstream. Often it involves breaking local ordinances against sleeping in cars. Avoiding trouble-hassles with cops and suspicious passersby-can be challenging, even with the Get Out of Jail Free card of white privilege. And in an era when unarmed African Americans are getting shot by police during traffic stops, living in a vehicle seems like an especially dangerous gambit for anyone who might become a victim of racial profiling.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-20T08:52:28.351Z"
+    },
+    {
+      "highlight_uuid": "85284bd7-10e9-4764-b08d-0c212bb5f598",
+      "text": "called himself Overdrive",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-21T07:12:10.738Z"
+    },
+    {
+      "highlight_uuid": "c07b8c88-d7dd-4c9e-bee2-2b80a79a5621",
+      "text": "That experience had been an unwelcome brush with the dreaded H word: Homeless. Most nomads avoid the label like a contagion. They are \"houseless,\" after all. \"Homeless\" is other people.",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-22T06:30:41.337Z"
+    },
+    {
+      "highlight_uuid": "6c3e7c60-20e9-4b32-a00f-1d7061b8aecd",
+      "text": "The story keeps unfolding into the future, but at some point you step away",
+      "book_title": "Nomadland",
+      "comment": "",
+      "utc_timestamp": "2021-09-22T19:16:30.449Z"
     }
   ]
 }
