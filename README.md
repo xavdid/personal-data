@@ -4,5 +4,5 @@ Inspired by `karlicoss`'s work on their [HPI](https://github.com/karlicoss/HPI),
 
 ## Commands:
 
-- `python books/backup-kobo.py`
-- `python books/extract_kobo_highlights.py`
+- `./books/backup-kobo`
+- `./books/extract_kobo_highlights`
