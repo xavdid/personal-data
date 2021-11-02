@@ -6,6 +6,9 @@ Inspired by [kobuddy](https://github.com/karlicoss/kobuddy), but simpler.
 
 ## Usage
 
+- `./bin/backup-kobo`
+- `./bin/extract_kobo_highlights`
+
 ## A Note on Copyright
 
 Data in sibling files contains text from works that may be under copyright. They're included as snippets under Fair Use in the US (where I reside). Copyright, where applicable, stays with the copyright holder.

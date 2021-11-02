@@ -4,5 +4,5 @@ Inspired by `karlicoss`'s work on their [HPI](https://github.com/karlicoss/HPI),
 
 ## Commands:
 
-- `./books/backup-kobo`
-- `./books/extract_kobo_highlights`
+- `./books/bin/backup-kobo`
+- `./books/bin/extract_kobo_highlights`

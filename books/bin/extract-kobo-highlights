@@ -7,16 +7,19 @@ from pathlib import Path
 from utils import find_kobo_db
 
 HIGHLIGHTS_QUERY = """
-SELECT DISTINCT bookmarkid,
-                text,
-                content.booktitle,
-                annotation,
-                bookmark.DateCreated
-FROM            Bookmark
-LEFT OUTER JOIN content
-ON              Bookmark.volumeid = content.bookid
-WHERE           text NOT null
-ORDER BY        Bookmark.datecreated
+SELECT
+  DISTINCT bookmarkid,
+  text,
+  content.booktitle,
+  annotation,
+  bookmark.DateCreated
+FROM
+  Bookmark
+  LEFT OUTER JOIN content ON Bookmark.volumeid = content.bookid
+WHERE
+  text NOT null
+ORDER BY
+  Bookmark.datecreated
 """
 
 UNICODE_REPLACEMENTS = {
@@ -53,7 +56,13 @@ def main():
     highlights = []
 
     for bookmark in cur.fetchall():
-        uuid, text, book_title, comment, date_created, = bookmark
+        (
+            uuid,
+            text,
+            book_title,
+            comment,
+            date_created,
+        ) = bookmark
 
         normalized_text = replace_unicode(
             (" ".join([line.strip() for line in text.split("\n") if line]))
