@@ -2,6 +2,7 @@
 
 import json
 import sqlite3
+import unicodedata
 from pathlib import Path
 
 from utils import find_kobo_db
@@ -35,6 +36,16 @@ UNICODE_REPLACEMENTS = {
 }
 
 
+def remove_accents(input_str: str) -> str:
+    """
+    https://stackoverflow.com/a/517974/1825390
+
+    Removes ligatures on letters
+    """
+    nfkd_form = unicodedata.normalize("NFKD", input_str)
+    return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
+
+
 def replace_unicode(s):
     for u, r in UNICODE_REPLACEMENTS.items():
         if u in s:
@@ -64,8 +75,10 @@ def main():
             date_created,
         ) = bookmark
 
-        normalized_text = replace_unicode(
-            (" ".join([line.strip() for line in text.split("\n") if line]))
+        normalized_text = remove_accents(
+            replace_unicode(
+                (" ".join([line.strip() for line in text.split("\n") if line]))
+            )
         )
 
         # will throw if there are any unhandled unicode characters left
