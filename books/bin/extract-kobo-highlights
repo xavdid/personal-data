@@ -82,7 +82,10 @@ def main():
         )
 
         # will throw if there are any unhandled unicode characters left
-        assert all([ord(c) < 128 for c in normalized_text])
+        # for c in normalized_text:
+        #     if ord(c) >= 128:
+        #         print(c)
+        assert all(ord(c) < 128 for c in normalized_text)
 
         highlights.append(
             dict(
