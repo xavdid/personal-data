@@ -3,21 +3,18 @@
 from datetime import date
 from os import environ
 from pathlib import Path
-from shutil import copy
-
-from utils import DB_FILENAME, find_kobo_db
+from shutil import make_archive
 
 
 def main():
-    db = find_kobo_db()
     if not environ.get("DROPBOX"):
         raise ValueError("Define $DROPBOX in env")
 
     backup_folder = Path(environ["DROPBOX"], "Apps", "Kobo")
 
-    destination = Path(backup_folder, f"{date.today().isoformat()}-{DB_FILENAME}")
+    destination = Path(backup_folder, f"{date.today().isoformat()} - Full Backup")
 
-    copy(db, destination)
+    make_archive(str(destination), "zip", str(Path("/Volumes", "KOBOeReader")))
     print("Done! Created", destination)
 
 
