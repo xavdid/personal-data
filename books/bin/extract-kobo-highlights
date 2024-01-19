@@ -3,6 +3,7 @@
 import json
 import sqlite3
 import unicodedata
+from contextlib import closing
 from pathlib import Path
 
 from utils import find_kobo_db
@@ -35,6 +36,7 @@ UNICODE_REPLACEMENTS = {
     "\u2013": "-",
     "\u00f8": "o",
     "\u00d8": "O",
+    "\ufeff": "",
 }
 
 
@@ -62,45 +64,45 @@ def main():
         * removes unicode
         * outputs a structure that Zapier expects (https://zapier.com/app/editor/106024564).
     """
-    conn = sqlite3.connect(find_kobo_db())
-    cur = conn.cursor()
-    cur.execute(HIGHLIGHTS_QUERY)
+    # ensure connection is closed! otherwise kobo sometimes ejects badly
+    with closing(sqlite3.connect(find_kobo_db())) as conn:
+        cur = conn.cursor()
+        cur.execute(HIGHLIGHTS_QUERY)
 
-    highlights = []
+        highlights = []
 
-    for bookmark in cur.fetchall():
-        (
-            uuid,
-            text,
-            book_title,
-            comment,
-            date_created,
-        ) = bookmark
+        for bookmark in cur.fetchall():
+            (
+                uuid,
+                text,
+                book_title,
+                comment,
+                date_created,
+            ) = bookmark
 
-        normalized_text = remove_accents(
-            replace_unicode(
-                (" ".join([line.strip() for line in text.split("\n") if line]))
+            normalized_text = remove_accents(
+                replace_unicode(
+                    (" ".join([line.strip() for line in text.split("\n") if line]))
+                )
             )
-        )
 
-        # will throw if there are any unhandled unicode characters left
-        # for c in normalized_text:
-        #     if ord(c) >= 128:
-        #         print(c)
-        assert all(ord(c) < 128 for c in normalized_text)
+            # will throw if there are any unhandled unicode characters left
+            for c in normalized_text:
+                if ord(c) >= 128:
+                    print(f"WARN: {c} outside ASCII")
+                    print(
+                        f"  more info: https://www.compart.com/en/unicode/U+{hex(ord(c))[2:].upper()}"
+                    )
 
-        highlights.append(
-            dict(
-                highlight_uuid=uuid,  # zapier dedups on this
-                text=normalized_text,
-                book_title=book_title,
-                comment=comment,
-                utc_timestamp=date_created + "Z",
+            highlights.append(
+                dict(
+                    highlight_uuid=uuid,  # zapier dedups on this
+                    text=normalized_text,
+                    book_title=book_title,
+                    comment=comment,
+                    utc_timestamp=date_created + "Z",
+                )
             )
-        )
-
-    # probably don't need this at the end of the script, but doesn't hurt
-    conn.close()
 
     Path(
         Path.home(), "projects", "personal-data", "books", "highlights.json"
