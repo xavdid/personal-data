@@ -82,9 +82,11 @@ def main():
 
             normalized_text = remove_accents(
                 replace_unicode(
-                    (" ".join([line.strip() for line in text.split("\n") if line]))
+                    (" ".join(line.strip() for line in text.split("\n") if line))
                 )
             )
+
+            normalized_title = remove_accents(replace_unicode(book_title))
 
             # will throw if there are any unhandled unicode characters left
             for c in normalized_text:
@@ -98,7 +100,7 @@ def main():
                 dict(
                     highlight_uuid=uuid,  # zapier dedups on this
                     text=normalized_text,
-                    book_title=book_title,
+                    book_title=normalized_title,
                     comment=comment,
                     utc_timestamp=date_created + "Z",
                 )
